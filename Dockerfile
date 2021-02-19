@@ -96,6 +96,7 @@ RUN set -x \
  && apk add --no-cache --virtual .nginx-rundeps $runDeps \
        bash \
        bash-completion \
+       ca-certificates \
        libintl \
 # Clean up build-time packages
  && apk del .build-deps \
