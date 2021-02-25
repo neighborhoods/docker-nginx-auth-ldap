@@ -1,8 +1,8 @@
-FROM alpine:3.6
+FROM alpine:3.13
 
 LABEL maintainer="Neighborhoods.com <neighborhoods.engineering@neighborhoods.com>"
 
-ENV NGINX_VERSION=1.13.5
+ENV NGINX_VERSION=1.18.0
 
 RUN set -x \
  && mkdir -p \
